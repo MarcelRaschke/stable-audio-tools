@@ -19,7 +19,6 @@ from .diffusion import ConditionedDiffusionModel, DAU1DCondWrapper, UNet1DCondWr
 from .factory import create_pretransform_from_config, create_bottleneck_from_config
 from .pretransforms import Pretransform, AutoencoderPretransform
 from .wavelets import WaveletEncode1d, WaveletDecode1d
-from .pscan import pscan
 from .transformer import ContinuousTransformer, TransformerBlock, RotaryEmbedding, Attention
 from .attn_masks import generate_sliding_window_mask, generate_chunked_sliding_window_mask
 
